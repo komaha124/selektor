@@ -1,0 +1,16 @@
+
+input {
+    background-color: green;
+    border:  2px solid green;
+    padding: 10px;
+}
+input[type="text"] {
+background-color: lightblue;
+}
+select > option {
+    background-color: mediumblue;
+}
+select > option [selected] {
+    font-weight: 600;
+    background-color: mediumorchid;
+}

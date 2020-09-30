@@ -1,0 +1,19 @@
+div{
+    width: 100px;
+    height:100px;
+    margin-bottom: 10px;
+}
+.class1{
+    background-color: brown;
+    font-weight: bolt;
+}
+.class2{
+    background-color: darkblue;
+    font-weight: initial;
+}
+.class1 > .class2 {
+    color: yellow;
+}
+div + p{
+    color: lawngreen;
+}
